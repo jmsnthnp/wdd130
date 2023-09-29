@@ -34,7 +34,7 @@ aside {
     position: relative;
 }
 aside img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 main img {
@@ -52,8 +52,8 @@ footer{
 }
 aside h2 {
     position: absolute;
-    top: 9.7rem;
-    left: 6.5rem;
+    top: 6.3rem;
+    left: 9rem;
     
 }
 /* Class Selectors */
