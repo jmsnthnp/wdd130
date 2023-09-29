@@ -31,9 +31,10 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 main img {
@@ -51,13 +52,14 @@ footer{
 }
 aside h2 {
     position: absolute;
-    top: 38.3rem;
-    left: 120px;
+    top: 9.7rem;
+    left: 6.5rem;
+    
 }
 /* Class Selectors */
 .box {
     margin: 1rem;
-    width: 20rem;
+    width: 30rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #eee;
