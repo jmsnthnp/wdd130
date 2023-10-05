@@ -36,19 +36,22 @@ main {
     margin: 1rem;
 }
 aside {
+    width: 20rem;
     text-align: center;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 aside img {
-    width: 200px;
+    width: 280px;
     height: auto;
+    margin-bottom: 1rem;
 }
 main img {
     width: 150px;
     height: auto;
     float: right;
+    margin: 10px;
 }
 p {
     padding: 0;
@@ -60,8 +63,8 @@ footer{
 }
 aside h2 {
     position: absolute;
-    top: 6.3rem;
-    left: 9rem;
+    top: 1.5rem;
+    left: 2rem;
 }
 header, .grid, footer {
   max-width: 840px;
@@ -70,7 +73,6 @@ header, .grid, footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    width: 30rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #eee;
