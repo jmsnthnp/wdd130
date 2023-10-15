@@ -30,6 +30,47 @@ header {
 p {
     padding: 25px;
 }
+section p {
+    position: relative;
+    top: 1%;
+    left: 26.5%;
+    width: 50rem;
+    font-size: 30px;
+}
+h1 {
+    position: relative;
+    width: 50rem;
+    top: 1%;
+    left: 27%;
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid;
+    text-align: center;
+}
+h2 {
+    margin-left: 40rem;
+    font-size: 2rem;
+    border: solid;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding-left: 10rem;
+    width: 200px;
+}
+div p {
+    font-size: 1rem;
+    margin-left: 10.5rem;
+    width: 200px;
+    padding: 10px;
+}
 nav {
     font-size: 2rem;
     display: flex;
@@ -45,7 +86,6 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border: 5px solid #2b2417;
-    
 }
 nav a:link, nav a:visited{
     color: var(--nav-link-color);
@@ -55,50 +95,6 @@ nav a:link, nav a:visited{
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
-.hero {
-    position: relative;
-  }
-.hero img {
-    display: block;
-    width: 96.7%;
-    height: auto;
-    margin: 2rem;
-}
-h1 {
-    position: absolute;
-    top: 20%;
-    left: 28%;
-    color: var(--secondary-color);
-    font-size: 5rem;
-    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-article {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
-    padding: 10px;
-    border-radius: 10px;
-    width:1500px;
-    font-size: 2rem;
-}
-article img {
-    float: right;
-    margin: 20px;
-    max-width: 300px;
-}
-section img {
-    width: 100%; 
-    height: auto; 
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #ccc;
 }
 footer img {
     width: 50px;
@@ -112,9 +108,16 @@ footer img {
 }
 header img {
     width: 200px;
-    border: 20px solid #2b2417;
+    border: 10px solid #2b2417;
     grid-column-start: 2;
     grid-row-start: 2;
+    border-radius: 10rem;
+}
+iframe {
+    height: 20rem;
+    position: absolute;
+    top: 66rem;
+    right: 200px;
 }
 .box {
     margin: 2rem;
@@ -123,8 +126,29 @@ header img {
     background-color: #eee;
     color: #000;
 }
-figcaption {
-    width: fit-content;
+.box1 {
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    height: 20rem;
+    background-color: #eee;
+    color: #000;
+}
+.box2 {
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    height: 31.5rem;
+    background-color: #eee;
+    color: #000;
+}
+.box3 {
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    height: 21rem;
+    background-color: #eee;
+    color: #000;
 }
 .flex {
     display: flex;
