@@ -231,7 +231,7 @@ button {
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
+    padding: .3rem;
     font-size: 1.2rem;
 }
 button:hover {
@@ -263,7 +263,7 @@ label {
     color: var(--accent1-color);
     margin-top: 10px;
 }
-div label {
+section label {
     color: black;
     font-size: 1rem;
 }
