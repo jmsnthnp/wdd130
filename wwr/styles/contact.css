@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: var(--secondary-color);
     margin: 2rem;
-    height: 400px;
+    height: 200px;
     border: 6px solid #2b2417;
     border-radius: .5rem;
 }
@@ -82,7 +82,7 @@ nav {
 nav a {
     display: flex;
     width: 200px;
-    height: 50px;
+    height: 30px;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 10px;
@@ -109,7 +109,7 @@ footer img {
     grid-template-rows: 20% 20% 20% 20% 20%;
 }
 header img {
-    width: 200px;
+    width: 100px;
     border: 10px solid #2b2417;
     grid-column-start: 2;
     grid-row-start: 2;
@@ -118,7 +118,7 @@ header img {
 iframe {
     height: 20rem;
     position: absolute;
-    top: 66rem;
+    top: 52rem;
     right: 200px;
 }
 .box {
@@ -194,4 +194,8 @@ section img {
     margin: 0 auto;
     padding: 10px;
     border: 1px solid #ccc;
+}
+figcaption {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
 }
